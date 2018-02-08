@@ -1,0 +1,51 @@
+
+<form id="634379463">
+<property name="name" value="NewMvpV1.MVP1_V1-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="chase_action" type="InputText" id="638390070">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;action (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/action"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="chase_assignedTo" type="InputText" id="90369248">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assignedTo (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/assignedTo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="chase_measure" type="InputText" id="714039083">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;measure (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/measure"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="chase_member" type="InputText" id="266416292">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;member (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/member"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="chase_overrequired" type="InputTextInteger" id="539008140">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;overrequired (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/overrequired"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="chase_status" type="InputText" id="536562691">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="chase" value="com.citiustech.mrr.Chase" id="chase"/>
+</form>
