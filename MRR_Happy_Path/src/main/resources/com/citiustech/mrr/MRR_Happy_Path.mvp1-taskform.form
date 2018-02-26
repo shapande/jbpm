@@ -1,0 +1,68 @@
+
+<form id="912330817">
+<property name="name" value="MRR_Happy_Path.mvp1-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="chase_measure" type="InputText" id="1372810193">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;measure (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/measure"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="chase_member" type="InputText" id="1345296823">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;member (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/member"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="chase_moc" type="InputText" id="543984048">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;moc (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/moc"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="chase_overreadRequired" type="InputTextInteger" id="204383323">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;overreadRequired (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/overreadRequired"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="chase_previousUser" type="InputText" id="1133222212">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;previousUser (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/previousUser"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="chase_query" type="InputText" id="303151429">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;query (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/query"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="chase_status" type="InputText" id="1725593065">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="chase_user" type="InputText" id="1491848674">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;user (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/user"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="chase" value="com.citiustech.mrr.Chase" id="chase"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="counter" value="java.lang.Integer" id="counter"/>
+</form>
